@@ -1,0 +1,54 @@
+/* Estilos para a tela dividida */
+.split-container {
+    display: flex;
+    height: 86vh;
+    width: 182vh;
+}
+
+/* Estilos para o lado esquerdo da tela */
+.left {
+    flex: 1;
+    background-color: #1d1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para o lado direito da tela */
+.right {
+    flex: 1;
+    background-color: #2b2929;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para os links */
+a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #333;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+.titulo{
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.frase{
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.body{
+    background-color: #3b3d3f;
+}
